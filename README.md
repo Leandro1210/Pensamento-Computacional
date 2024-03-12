@@ -1,3 +1,3 @@
 # Pensamento-Computacional
-Leandro Rodrigues dos Santos
-Turma A
+#Leandro Rodrigues dos Santos
+#Turma A
