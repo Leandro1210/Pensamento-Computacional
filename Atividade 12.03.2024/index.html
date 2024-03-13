@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1>Calculadora de Média Escolar</h1>
+        <form id="formulario">
+            <label for="inputNome">Nome</label>
+            <input type="text" name="inputNome" id="nome">
+            <label for="inputNota1">Primeira Nota</label>
+            <input type="number" name="inputNota1"  id="nota1" min="0" max="100" required>
+            <label for="inputNota2" >Segunda Nota</label>
+            <input type="number" name="inputNota2" id="nota2" min="0" max="100" required>
+            <label for="inputNota3" >Terceira Nota</label>
+            <input type="number" name="inputNota3" id="nota3" min="0" max="100" required>
+            <button type="submit">Calcular</button>
+            <div id="resultado" >
+                <h2>Resultado:</h2>
+                <p id="mensagem"></p>
+            </div>
+        </form>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
